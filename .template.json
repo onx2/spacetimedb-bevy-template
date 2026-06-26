@@ -2,6 +2,6 @@
     "description": "A Bevy game engine template with a Rust SpacetimeDB server",
     "client_lang": "rust",
     "server_lang": "rust",
-    "image": "https://example.com/bevy-stdb-preview.png",
+    "image": "https://bevy.org/processed_images/official-bevy-examples.bfb4c8b72b148509.png",
     "builtWith": ["bevy", "rust", "spacetimedb"]
 }
