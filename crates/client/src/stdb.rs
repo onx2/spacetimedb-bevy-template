@@ -34,7 +34,7 @@ impl Plugin for MyStdbPlugin {
                 .with_eager_connection()
                 // You can register tables, views, and tables without PK using methods like this:
                 // add_view, add_table, add_table_without_pk
-                .add_table::<Player>(|reg, db| reg.bind(db.player()))
+                .add_table::<PlayerTableAccessor>()
                 // Typical case is using a background native driver, but there are others available for web or frame-driven
                 .with_background_driver(DbConnection::run_threaded),
         );
